@@ -24,7 +24,7 @@ I compile project by following instructions:
 
 
 #### 2.Does your particle filter localize the vehicle to within the desired accuracy?
-The simulator says "Success! Your particle filter passed!" then it means you¡¯
+The simulator says "Success! Your particle filter passed!" .
 <div class="test">
 <img src="Docs/result.png" width="600" />
 </div>
@@ -51,7 +51,8 @@ Here is a code fragment about the particle filter:
         	...
         }
 
-        void updateWeights(double sensor_range, double std_landmark[], const std::vector<LandmarkObs> &observations,
+        void updateWeights(double sensor_range, double std_landmark[], 
+                        const std::vector<LandmarkObs> &observations,
                         const Map &map_landmarks){
           ...
         }
